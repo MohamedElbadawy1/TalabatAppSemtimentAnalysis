@@ -56,4 +56,4 @@ if st.button(" Analyze Sentiment"):
 
 st.markdown("---")
 st.markdown("<p style='text-align: center; font-size:13px;'>Model trained with TF-IDF + Logistic Regression on Talabat reviews.</p>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size:13px;'>by : Mohamed Elbadawy</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size:13px;'>Mohamed Elbadawy | Junior Data Scientist</p>", unsafe_allow_html=True)
