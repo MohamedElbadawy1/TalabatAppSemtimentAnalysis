@@ -2,6 +2,8 @@ import streamlit as st
 import joblib
 import base64
 from PIL import Image
+import os
+os.system("pip install joblib")
 
 model = joblib.load("A:/NTI/SentimentAnalysisProject/models/sentiment_model.pkl")
 vectorizer = joblib.load("A:/NTI/SentimentAnalysisProject/models/tfidfVectorizer.pkl")
